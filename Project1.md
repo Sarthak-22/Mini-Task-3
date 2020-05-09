@@ -9,6 +9,7 @@ __Possible mistakes:__
  __Scope of improvement/changes :__
  
   * A proper body for the ring needs to be brought up on which the circuit can be assembled. An example of a ring body is shown below.
+  
   ![image](https://cdn.instructables.com/FGH/E4X8/GYZNVLNT/FGHE4X8GYZNVLNT.LARGE.jpg?auto=webp&width=1024&height=1024&fit=bounds)
   
   * As shown, the body is made up of steel. Hence, we can cover it with any insulating material to prevent electic shocks. We can also come up with a rubber body to provide a good insulation to our circuit. Such shapes are readiy available in the markets. We can even make our own custom body using a wax pattern or epoxy resin mould.
