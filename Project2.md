@@ -14,6 +14,8 @@
  
  * Digital accelerometers will give you information using a serial protocol like I2C , SPI or USART, while analog accelerometers will output a voltage level within a predefined range that you have to convert to a digital value using an ADC (analog to digital converter) module. The formula to convert the voltage values into corresponding acceleration and angular velocity values can be found [here](https://engineering.stackexchange.com/questions/3348/calculating-pitch-yaw-and-roll-from-mag-acc-and-gyro-data). For detailed explanation of the math, visit [here](http://www.starlino.com/imu_guide.html).
  
+ *
+ 
  ### Analyzing the pipeline:
  
   * Our Hexapod consists of 18 Degrees of freedoms(DOF) i.e 3 DOF's for each of the six legs. In this project only three states are considered for each leg, hence total 729(3^6) states for the robot.  In every step, from every state of the agent, each action is rewarded and the rewards of speciﬁc state action is stored.
@@ -23,7 +25,7 @@
    There are some boards which are compatible for controlling real-time like National Instruments products, but they are expensive to be  bought. One of the reasonable answers for connection challenge is to use a low level control architecture for tasks such as managing   transmitting and receiving signals.
    A board, which is an __AVR microcontroller ATmega2560__ base board ahould be used for low level control. It can control servo motors directly and also connect to a PC.
    
-  * 
+  * In order to __manage the wires__, we can create compartments or small hollow tubes for the wires from each leg to pass through. These 6 tubes would then open near the microcontroller where the connections can be made. We can even introduce a Wif dule in our robot so that the data from the microcontroller can be directly sent over internet to our software wih RL algorithm. The processed data can again be sent to the microcontroller over internet thus eradicating the need of a __USB__ connection.
   
   
  
