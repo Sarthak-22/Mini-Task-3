@@ -24,13 +24,15 @@
       
       * The components will be mounted in a layered support system. This will provide a way for subsystems to be mounted and removed easily without interfering with the other systems. A layered mounting system provides a way to easily add and remove subsystems independently. The structure of the robot can be built with plastic sheets in order to decrease the overall weight of the robot. 
       
-      * __Motors/Encoders__ -  A DC motor with encoders(preferably __N20 6V 100RPM Micro Metal Gear Motor With Encoder__). These motors are small and quite light as compared to stepper motors. The electronics is fairly simple provides with optimal power supply. Though stepper motors are good for speed, they are quite heavy, power hungry and need relatively heavy duty driving electronics. 
+      * __Motors/Encoders__ -  A DC motor with encoders(preferably __N20 6V 100RPM Micro Metal Gear Motor With Encoder__). This motors are small and quite light as compared to stepper motors. The electronics is fairly simple provides with optimal power supply. The motor is also provided with inbuilt encoder which is quite useful to provide encoded data about the rotation of wheels to our program. Though stepper motors are good for speed, they are quite heavy, power hungry and need relatively heavy duty driving electronics. 
       
       * __Power Supply__ - A 520mAh 7.4V Li-po battery can be used as a source of power for the motors and control system. It offers high capacity and hence can be used to hold more power. It is rechargeable and safe from explosion unlike other Li-ion battery. 
       
       
      
-      
+Some __research papers__ based on Micromouse assembly, design and implementation of Flood-fill algorithm can be found here - 
+[Research Paper1](https://www.researchgate.net/publication/319943074_Optimization_Maze_Robot_Using_A_and_Flood_Fill_Algorithm)
+[Research paper2](https://pdfs.semanticscholar.org/7a3b/a96296fe54e2fc82030e2c5375299cfbe9c9.pdf?_ga=2.14211703.1111116604.1589368847-600967904.1589368847)
       
       
       
