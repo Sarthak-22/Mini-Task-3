@@ -14,7 +14,7 @@
       -----------------------------|------------|------------|--------------
       ESP 32 | Beginner friendly as the code Arduino IDE | In-built WiFi, bluetooth module. Powerful 32 bits CPU to store memory | Relatively costlier(almost two times the cost of module)
       Sensors | Cheap and easily available | Simple and compact. No moving parts and built-in illumination adjacent to the lens. Small amount of processing power is used. | It needs to be optimised continously for electronic devices |
-      Arduino IDE code | Open source and easy to code for beginners | Contains many in-built libraries. ESP32 can be installed as an add-on in Arduino IDE | |
+      Arduino IDE code | Open source and easy to code for beginners | Contains many in-built libraries. ESP32 can be installed as an add-on in Arduino IDE | _ |
       
       * __Programming software__ - Although Arduino IDE is an easy-to-program language, coding the same in python is quite beneficial and powerful to implement complex algorithms. Python has quite an easy syntax thus making it easy for beginners. Many microcontrollers(including ESP32) extensively support Python as a programming tool. A middleware named __Zenith__ provides developers with an ecosystem of software tools for programming microcontrollers using Python and then connect them to the Cloud. A deatiled information on setting up Python programming with microcontroller ESP32 can be found [here](https://www.open-electronics.org/python-on-esp32-easy-for-beginners-powerful-for-professionals/).
       
