@@ -7,7 +7,7 @@ __Problem statement__ - To build an electronic lighting ring that glows when wor
     
    * __Ring Design__ - The ring should be much broader in width for the microcomponents and our circuit as a whole to fit inside it. It should be made of a non-insuating material such as plastic, wax pattern or epoxy resin mould etc. Such designs/bodies are readily available in local stores. Hence, we can choose the design as per our desire.
    
-    ![image](https://cdn.instructables.com/FGH/E4X8/GYZNVLNT/FGHE4X8GYZNVLNT.LARGE.jpg?auto=webp&width=1024&height=1024&fit=bounds)
+  ![image](https://cdn.instructables.com/FGH/E4X8/GYZNVLNT/FGHE4X8GYZNVLNT.LARGE.jpg?auto=webp&width=1024&height=1024&fit=bounds)
    
    * __Microcontroller__ - The most important constraint while choosing an appropriate microcontroller is its size. Along with size, power consumption is also equally important. Hence, we need a microcontroller which is small in size and has power-saving abilities (sleep mode). Two microcontrollers that satisfy the above constraints is [MPC5668x](https://www.nxp.com/docs/en/data-sheet/MPC5668x.pdf) and [ATtiny45](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf). ATtiny microcontrollers has an operating voltage of 3V and is optimal with the current power supply availability.
    
